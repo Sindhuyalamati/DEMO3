@@ -12,10 +12,10 @@ edit client details
      [Documentation]     This test case is to test the edit client details in client
      set selenium speed  2s
     This test case is to test the edit client details in client
-edit client
-    [Documentation]     This test case is to test the edit details in client
-    set selenium speed  2s
-    This test case is to test the edit details in client
+#edit client
+#    [Documentation]     This test case is to test the edit details in client
+#    set selenium speed  2s
+#    This test case is to test the edit details in client
 edit client contacts
     [Documentation]     This test case is to test the edit contacts in client
     set selenium speed  2s

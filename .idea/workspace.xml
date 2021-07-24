@@ -12,43 +12,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8a678cb5-eb29-4bfe-8b97-2351a4f9e93a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/AcceptRejectExpenses/TC_ARE01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/AcceptRejectExpenses/TC_ARE01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/CreateClient/TC_CC01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/CreateClient/TC_CC01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/CreatePlacement/TC_CP02_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/CreatePlacement/TC_CP02_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/Deduction/TC_D01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/Deduction/TC_D01_GC.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/keywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/keywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Authentication/EditClient/TC_EC01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/EditClient/TC_EC01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/Editplacement/TC_EP01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/Editplacement/TC_EP01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/Expenses/TC_NE01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/Expenses/TC_NE01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/Timesheets/TC_TS01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/Timesheets/TC_TS01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/Wiki/TC_W01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/Wiki/TC_W01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/401k/TC_EI02_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/401k/TC_EI02_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/Documents/TC_D02_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/Documents/TC_D02_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EducationHistory/TC_EH01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EducationHistory/TC_EH01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmergencyContact/TC_EC01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmergencyContact/TC_EC01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmergencyContact/TC_WA01_MF.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmergencyContact/TC_WA01_MF.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EC01_MF.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EC01_MF.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EH02_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EH02_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/Passport/TC_PP02_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/Passport/TC_PP02_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/PersonalInformation/TC_PI01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/PersonalInformation/TC_PI01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/Skills/TC_S01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/Skills/TC_S01_GC.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/WorkAuthorization/TC_WA01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/WorkAuthorization/TC_WA01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/WorkAuthorization/TC_WA01_MF.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/WorkAuthorization/TC_WA01_MF.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TaskManagement/LinkTask/TC_LT01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TaskManagement/LinkTask/TC_LT01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TaskManagement/ListofProjects/TC_LP01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TaskManagement/ListofProjects/TC_LP01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TaskManagement/ListofProjects/TC_LP01_MF.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TaskManagement/ListofProjects/TC_LP01_MF.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TaskManagement/ListofTasks/TC_LT01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TaskManagement/ListofTasks/TC_LT01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TaskManagement/ListofTasks/TC_LT01_MF.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TaskManagement/ListofTasks/TC_LT01_MF.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TaskManagement/UnlinkTask/TC_UT01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TaskManagement/UnlinkTask/TC_UT01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/invoices/ActionsTest/TC_INMA_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/invoices/ActionsTest/TC_INMA_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/invoices/ActionsTest/TC_INPRE_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/invoices/ActionsTest/TC_INPRE_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/invoices/ActionsTest/TC_INTL_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/invoices/ActionsTest/TC_INTL_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/invoices/NewInoviceGeneration/TC_NIG01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/invoices/NewInoviceGeneration/TC_NIG01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/invoices/Payments/TC_INPY_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/invoices/Payments/TC_INPY_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/invoices/VoidInvoices/TC_INV_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/invoices/VoidInvoices/TC_INV_GC.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/123.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/TC_IE01_GC.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/TC_IE01_MF.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/p1.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
