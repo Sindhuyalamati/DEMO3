@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation  This test case is to test the employee Editing page of Work Authorization lower upper wrongdata praticaldata boundary conditions
 Resource  ../../../../Resources/common.robot
-# robot -d test\Results test\Tests\EmployeeList\EmployeeInformation\WorkAuthorization\TC_WA01_GC.robot
+# robot -d Results Tests\EmployeeList\EmployeeInformation\WorkAuthorization\TC_WA01_GC.robot
 Resource  ../../../../Resources/keywords.robot
 Library  SeleniumLibrary
 Library  string

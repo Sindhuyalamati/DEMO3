@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation  This test case is to test the accept and reject the expenes
 Resource  ../../../Resources/common.robot
-# robot -d test/Results test/Tests/Authentication/AcceptRejectExpenses/TC_ARE01_GC.robot
+# robot -d Results Tests/Authentication/AcceptRejectExpenses/TC_ARE01_GC.robot
 Resource  ../../../Resources/keywords.robot
 Library  SeleniumLibrary
 Library  string

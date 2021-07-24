@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  This test case is to test the Documents
-# robot -d test\Results test\Tests\EmployeeList\EmployeeInformation\Documents\TC_D02_GC.robot
+# robot -d Results Tests\EmployeeList\EmployeeInformation\Documents\TC_D02_GC.robot
 Resource  ../../../../Resources/common.robot
 Resource  ../../../../Resources/keywords.robot
 Library  SeleniumLibrary

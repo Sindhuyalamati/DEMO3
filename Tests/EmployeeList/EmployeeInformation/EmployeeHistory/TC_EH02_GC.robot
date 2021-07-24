@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation  This test case is to test the employee Editing page of employee history lower upper wrongdata praticaldata boundary conditions
 Resource  ../../../../Resources/common.robot
-# robot -d test/Results test/Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EH02_GC.robot
+# robot -d Results Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EH02_GC.robot
 Resource  ../../../../Resources/keywords.robot
 Library  SeleniumLibrary
 Library  string

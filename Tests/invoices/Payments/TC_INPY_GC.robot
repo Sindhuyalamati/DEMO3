@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  This test case is to test the mailsent in invoice
-# robot -d test\Results test\Tests\invoices\Payments\TC_INPY_GC.robot
+# robot -d Results Tests\invoices\Payments\TC_INPY_GC.robot
 Resource  ../../../Resources/common.robot
 Resource  ../../../Resources/keywords.robot
 Library  SeleniumLibrary

@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    This test is to test the Personal information of the employee
-# robot -d test\Results test\Tests\EmployeeList\EmployeeInformation\PersonalInformation\TC_PI01_GC.robot
+# robot -d Results Tests\EmployeeList\EmployeeInformation\PersonalInformation\TC_PI01_GC.robot
 Library    SeleniumLibrary
 Resource    ../../../../Resources/common.robot
 Resource    ../../../../Resources/keywords.robot

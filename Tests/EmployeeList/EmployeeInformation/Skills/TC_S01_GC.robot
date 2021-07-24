@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  This test case is to test the Skills
-# robot -d test\Results test\Tests\EmployeeList\EmployeeInformation\Skills\TC_S01_GC.robot
+# robot -d Results Tests\EmployeeList\EmployeeInformation\Skills\TC_S01_GC.robot
 Resource  ../../../../Resources/common.robot
 Resource  ../../../../Resources/keywords.robot
 Library  SeleniumLibrary

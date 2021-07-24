@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  This test case is to test the edit client
-# robot -d test\Results test\Tests\Authentication\EditClient\TC_EC01_GC.robot
+# robot -d Results Tests\Authentication\EditClient\TC_EC01_GC.robot
 Resource  ../../../Resources/common.robot
 Resource  ../../../Resources/keywords.robot
 Library  SeleniumLibrary
@@ -8,7 +8,7 @@ Library  string
 Test Setup     commonsetup
 Test Teardown   commonteardown
 *** Test Cases ***
-#edit client details
+edit client details
      [Documentation]     This test case is to test the edit client details in client
      set selenium speed  2s
     This test case is to test the edit client details in client
