@@ -12,19 +12,161 @@
   <component name="ChangeListManager">
     <list default="true" id="8a678cb5-eb29-4bfe-8b97-2351a4f9e93a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Globalvariables/BoundaryVariables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Globalvariables/BoundaryVariables.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Globalvariables/xpath.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Globalvariables/xpath.robot" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/Resources/keywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/keywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/EditClient/TC_EC01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/EditClient/TC_EC01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EH02_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EH02_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/WorkAuthorization/TC_WA01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/WorkAuthorization/TC_WA01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/123.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/TC_IE01_GC.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/TC_IE01_MF.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Authentication/Timesheets/TC_TS01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/Timesheets/TC_TS01_GC.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-108.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-110.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-112.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-115.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-117.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-122.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-129.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-131.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-132.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-133.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-134.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-135.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-138.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-139.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-141.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-142.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-143.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-145.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-146.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-92.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-93.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-95.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-97.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-98.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-screenshot-99.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

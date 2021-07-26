@@ -426,7 +426,7 @@ ${timesheet_placement}    //*[@id="SubmitTimesheet-SelectPlacement-placements-st
 ${timesheet_rejectedtab}  //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div[2]/div/div/div/button[4]
 ${timesheet_rejectedit}   //*[@id="simple-tabpanel-3"]/div/p/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[12]/div/a/button
 ${timesheet_pendingedit}  //*[@id="simple-tabpanel-0"]/div/p/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[12]/div/a/button
-${timesheet_admintimesheet}   //*[@id="root"]/div/div/div/div/a[2]/li
+${timesheet_icon}   //*[@id="root"]/div/div/div/div/a[2]/li
 ${timesheet_adminaccept}  //*[@id="simple-tabpanel-0"]/div/p/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[12]/div/div[1]/div/button
 ${timesheet_adminaprrove}    //html/body/div[9]/div[3]/div/div[3]/button
 ${timesheetadminrej}    //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div[2]/div/div/div/button[4]
@@ -439,6 +439,13 @@ ${timesheet_rejsubmit}    //html/body/div[7]/div[3]/div/div[3]/button
 ${timesheets2}  //*[@id="root"]/div/div/div/div/a[2]/li
 ${timesheet_newtimesheet}  //*[@id="console-timesheets-new-button"]
 ${timesheet_slctPMbutt}  //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div[1]/div[1]/div/div/div/div/div/button[2]
+${timesheet_adminrejecttab}     //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div[2]/div/div/div/button[4]
+${timesheet_rejapprove}     //*[@id="simple-tabpanel-3"]/div/p/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[12]/div/div[1]/div/button
+${timesheet_rejapprovebutt}     //html/body/div[9]/div[3]/div/div[3]/button
+${timesheet_adminapprovetab}      //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div[2]/div/div/div/button[2]
+${timesheet_approverejicon}   //*[@id="simple-tabpanel-1"]/div/p/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[12]/div/div[2]/div/button
+${timesheet_apprejcomment}      //html/body/div[9]/div[3]/div/div[2]/div/div/div/div[3]/div[1]
+${timesheet_approverejbutt}     //html/body/div[9]/div[3]/div/div[3]/button
 
 
 #...............invoicespayments.......................#
