@@ -51,9 +51,9 @@ ${trail1}  &{TrailXpathDict}
 #TC_LR_GC.robot
 &{inputtext}    description=done    name=deepika    chequenumber=123456    totalamount=5000    deductamount=1000    advdate=01/09/2021   deductdate=02/09/2021
 #task management
-&{TM new project}   projectname=flair developer  projectid=12345  projectstartdate=11/02/2021  projectenddate=09/02/2020  projecteditenddate=2022
+&{TM new project}   projectname=flair developer  projectid=123456  projectstartdate=11/02/2021  projectenddate=09/02/2020  projecteditenddate=2022
 &{TM edit task}    edittaskname= flair devop 1
-&{TM edit comment}  editcomment=done okkk.
+&{TM edit comment}  editcomment=completed
 &{TM comment}  leavecomment=done
 &{TM newtask}  newtaskname=task 13  newtaskstartdate=02/09/2021  newtaskenddate=02/10/2020  newtaskeditenddate= 2021
 &{TM newsubtask}  newsubtaskname=task12  newsubtaskstartdate=03/08/2021  newsubtaskenddate=03/09/2020  newsubtaskeditenddate=2021
