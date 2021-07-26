@@ -2138,9 +2138,9 @@ this test is to test the new sub task creation in task management for admin logi
        # click element  ${TM_nt_click_create}
        #........................timesheets.......................#
 this test case is to test the timesheets
-        Input Text  ${email}    ${Employee_Logins}[Email]
+        Input Text  ${email}    ${Employee_Logins1}[Email]
         sleep   2s
-        Input Password  ${pwd}  ${Employee_Logins}[Password]
+        Input Password  ${pwd}  ${Employee_Logins1}[Password]
         sleep   2s
         Click Element   ${submit}
         sleep   20s
@@ -2155,9 +2155,9 @@ this test case is to test the timesheets
         click element   ${timesheet_placement}
         sleep   2s
 this test case is to test resubmit rejected timesheets
-        Input Text  ${email}    ${Employee_Logins}[Email]
+        Input Text  ${email}    ${Employee_Logins1}[Email]
         sleep   2s
-        Input Password  ${pwd}  ${Employee_Logins}[Password]
+        Input Password  ${pwd}  ${Employee_Logins1}[Password]
         sleep   2s
         Click Element   ${submit}
         sleep   20s
@@ -2179,9 +2179,9 @@ this test case is to test resubmit rejected timesheets
         sleep   3s
         wait until page contains    Timesheet updated successfully
 this test case is to test resubmit pending timesheets
-         Input Text  ${email}    ${Employee_Logins}[Email]
+         Input Text  ${email}    ${Employee_Logins1}[Email]
         sleep   2s
-        Input Password  ${pwd}  ${Employee_Logins}[Password]
+        Input Password  ${pwd}  ${Employee_Logins1}[Password]
         sleep   2s
         Click Element   ${submit}
         sleep   20s
