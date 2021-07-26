@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  This test case is to test the Passport
-# robot -d test\Results test\Tests\EmployeeList\EmployeeInformation\Passport\TC_PP02_GC.robot
+# robot -d Results Tests\EmployeeList\EmployeeInformation\Passport\TC_PP02_GC.robot
 Resource  ../../../../Resources/common.robot
 Resource  ../../../../Resources/keywords.robot
 Library  SeleniumLibrary

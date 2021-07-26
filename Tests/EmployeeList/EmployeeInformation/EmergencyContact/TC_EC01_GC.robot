@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  This test case is to test the emergency contact of employee
-# robot -d test\Results test\Tests\EmployeeList\EmployeeInformation\EmergencyContact\TC_EC01_GC.robot
+# robot -d Results Tests\EmployeeList\EmployeeInformation\EmergencyContact\TC_EC01_GC.robot
 Resource  ../../../../Resources/common.robot
 Resource  ../../../../Resources/keywords.robot
 Library  SeleniumLibrary

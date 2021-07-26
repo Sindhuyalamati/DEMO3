@@ -1,17 +1,17 @@
-*** Settings ***
-Documentation  This test case is to test the employee Editing page of Work Authorization lower upper wrongdata praticaldata boundary conditions
-Resource  ../../../../Resources/common.robot
-# robot -d test\Results test\Tests\EmployeeList\EmployeeInformation\WorkAuthorization\TC_WA01_GC.robot
-Resource  ../../../../Resources/keywords.robot
-Library  SeleniumLibrary
-Library  string
-Test Setup      commonsetup
-Test Teardown   commonteardown
-
-*** Test Cases ***
-TC_EM01_GC
-    [Documentation]     This test case is to test the employee Editing page of Work Authorization lower upper wrongdata praticaldata boundary conditions
-    This test case is to test the employee Editing page of Work Authorization lower upper wrongdata praticaldata boundary conditions
+#*** Settings ***
+#Documentation  This test case is to test the employee Editing page of Work Authorization lower upper wrongdata praticaldata boundary conditions
+#Resource  ../../../../Resources/common.robot
+## robot -d Results Tests\EmployeeList\EmployeeInformation\WorkAuthorization\TC_WA01_GC.robot
+#Resource  ../../../../Resources/keywords.robot
+#Library  SeleniumLibrary
+#Library  string
+#Test Setup      commonsetup
+#Test Teardown   commonteardown
+#
+#*** Test Cases ***
+#TC_EM01_GC
+#    [Documentation]     This test case is to test the employee Editing page of Work Authorization lower upper wrongdata praticaldata boundary conditions
+#    This test case is to test the employee Editing page of Work Authorization lower upper wrongdata praticaldata boundary conditions
 #TC_MG01_GC
 #    [Documentation]     This test case is to test the Manager Editing page of Work Authorization lower upper wrongdata praticaldata boundary conditions
    # This test case is to test the manager Editing page of Work Authorization lower upper wrongdata praticaldata boundary conditions

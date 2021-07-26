@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  This test case is to test the Educational history
-# robot -d test\Results test\Tests\EmployeeList\EmployeeInformation\401k\TC_EI02_GC.robot
+# robot -d Results Tests\EmployeeList\EmployeeInformation\401k\TC_EI02_GC.robot
 Resource  ../../../../Resources/common.robot
 Resource  ../../../../Resources/keywords.robot
 Library  SeleniumLibrary

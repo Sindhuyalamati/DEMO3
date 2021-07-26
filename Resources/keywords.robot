@@ -2228,8 +2228,8 @@ this test case is to test reject timesheets
         Input Text  ${timesheet_rejcomment}       bad
         sleep   2s
         Click Element   ${timesheet_adminrej1}
-        sleep   3s
-        wait until page contains    Timesheet rejected successfully
+#        sleep   1s
+#        wait until page contains    Timesheet rejected successfully
         #............................invoice.................................#
 this test case is to test the mailsent in invoices
         Input Text  ${email}    ${admin_Login}[Email]
