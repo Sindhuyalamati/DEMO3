@@ -370,8 +370,8 @@ This test case is to link the task.
         sleep    2s
         click element    ${TM_select_task9}
         sleep    5s
-        click element    ${TM_link}
-        sleep    2s
+       # click element    ${TM_link}
+       # sleep    2s
 #        wait until page contains    Tasks Linked
 This test case is to unlink the task.
          Input Text  ${email}    ${admin_Login}[Email]
@@ -394,8 +394,8 @@ This test case is to unlink the task.
         sleep    5s
         click element    ${TM_select_unlink_task}
         sleep    5s
-        click element    ${TM_unlink}
-        sleep    5s
+       # click element    ${TM_unlink}
+       # sleep    5s
         #wait until page contains    Tasks Unlinked
 
 
