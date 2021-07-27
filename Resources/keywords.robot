@@ -369,7 +369,7 @@ This test case is to link the task.
         click element  ${TM_link_task}
         sleep    2s
         click element    ${TM_select_task9}
-        sleep    5s
+       # sleep    5s
        # click element    ${TM_link}
        # sleep    2s
 #        wait until page contains    Tasks Linked
@@ -393,7 +393,7 @@ This test case is to unlink the task.
         click element    ${TM_unlink_task}
         sleep    5s
         click element    ${TM_select_unlink_task}
-        sleep    5s
+       # sleep    5s
        # click element    ${TM_unlink}
        # sleep    5s
         #wait until page contains    Tasks Unlinked
