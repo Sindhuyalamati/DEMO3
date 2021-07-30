@@ -14,7 +14,7 @@ ${upper boundary number}  9999999999999999999999999
 &{TrailXpathDict}  WorkPhoneDict=//div/mat-option/span[contains(text()," +91 ")]
 &{enterdata}  taskname=assignNewtask  dateissue=02022020  dateexp=03052020
 #&{personalinfo}  Firstname=test05  Middlename=test  Lastname=testcase  Phoneno=9999999999  Email=gavirinaresh15@gmail.com
-&{PersonalInformation}    Firstname=deepika    Middlename=Deepu    Lastname=sanipini    Email=Deepika5e6@sasi.ac.in    Phone=12345678890    DOB=12/12/2002
+&{PersonalInformation}    Firstname=sindhu    Middlename=y   Lastname=yalamati    Email=yalamatisindhu2314@gmail.com   Phone=12345678890    DOB=12/12/2002
 &{EmergencyContacts}    Name=deepika    Phone=1234567890    Email=deepika5e6@sasi.ac.in    Relation=sister
 &{EmployeeHistory}    Client=deepika    ClientAddress=RJY    ManagerrefrncEmail=Deepika5e6@sasi.ac.in    Vendorname=deepika    VendorPhone=1234567890    VendorEmail=Deepika5e6@sasi.ac.in    FromDate=02/02/2021    ToDate=02/02/2022    Experience=2
 &{WorkAuthorization}    Number=1234567890    Issuedate=12/12/2020    Expirydate=12/12/2021    Validfrom=11/12/2022    Aliennumber=1234567890
