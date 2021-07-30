@@ -2496,6 +2496,45 @@ Test Case to download,add documents in Client
         Capture Page Screenshot
 #        choose file   ${docattcli}      C:\Users\durga deepika\Pictures\Screenshots\Screenshot (18).png
 #        click element    ${donedoccli}
+#.........................................single invitation.....................#
+This test case is to test invite employee through single invitation
+        Input Text  ${email}    ${admin_Login}[Email]
+        Input Password  ${pwd}  ${admin_Login}[Password]
+        Click Element   ${submit}
+        sleep   5s
+        Click Element   ${flairTec}
+        sleep   7s
+        Click Element    ${Menubar}
+        Sleep    5s
+        Click Element   ${InviteEmployee_Icon}
+        sleep   5s
+        Click Element   ${InviteButton_1}
+        sleep   5s
+        Input Text  ${EmployeeSinInvite_Mail}   reo11234567890@gmail.com
+        sleep   5s
+        Click Element   ${InviteButton_2}
+        sleep   2s
+        wait until page contains    reo11234567890@gmail.com is already registered
+        Sleep  2s
+This test case is to test invite employee through bulk invitation
+        Input Text  ${email}    ${admin_Login}[Email]
+        Input Password  ${pwd}  ${admin_Login}[Password]
+        Click Element   ${submit}
+        sleep   5s
+        Click Element   ${flairTec}
+        sleep   7s
+        Click Element    ${Menubar}
+        Sleep    5s
+        Click Element   ${InviteEmployee_Icon}
+        sleep   5s
+        Click Element   ${InviteButton_1}
+        sleep   5s
+        Click Element   ${invitemultiple_button}
+        Sleep   5s
+        Click Element   ${InviteButton_2}
+        sleep   2s
+
+
 
 
 

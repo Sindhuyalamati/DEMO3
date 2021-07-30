@@ -11,20 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a678cb5-eb29-4bfe-8b97-2351a4f9e93a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/Authentication/InvitEemployee/BulkInvitation/TC_BI01_GC.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Authentication/InvitEemployee/SingleInvitation/TC_SI01_GC.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Globalvariables/BoundaryVariables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Globalvariables/BoundaryVariables.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Globalvariables/Credentials.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Globalvariables/Credentials.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Globalvariables/xpath.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Globalvariables/xpath.robot" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/Resources/keywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/keywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Authentication/EditClient/TC_EC01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Authentication/EditClient/TC_EC01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EH02_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/EmployeeHistory/TC_EH02_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/WorkAuthorization/TC_WA01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/EmployeeList/EmployeeInformation/WorkAuthorization/TC_WA01_GC.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/123.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/TC_IE01_GC.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/TC_IE01_MF.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TaskManagement/NewProject/TC_NP01_GC.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TaskManagement/NewProject/TC_NP01_GC.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +47,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -105,17 +101,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="42" key="#Inspections" timestamp="1624078599009">
+    <state x="427" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627632221616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1624078599009" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1627101540274">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627101540274" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1623563037821">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1623563037821" />
+    <state x="427" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1627632221616" />
   </component>
 </project>
