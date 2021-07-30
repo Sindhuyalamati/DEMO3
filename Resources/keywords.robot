@@ -2139,97 +2139,100 @@ this test is to test the new sub task creation in task management for admin logi
        #........................timesheets.......................#
 this test case is to test the timesheets
         Input Text  ${email}    ${Employee_Logins1}[Email]
-        sleep   2s
         Input Password  ${pwd}  ${Employee_Logins1}[Password]
-        sleep   2s
         Click Element   ${submit}
-        sleep   20s
+        sleep   5s
         Click Element    ${flairTec}
-        sleep   10s
+        sleep   5s
         click element   ${timesheets2}
-        sleep   2s
         click element   ${timesheet_newtimesheet}
-        sleep   2s
         click element   ${timesheet_slctPMbutt}
-        sleep   2s
         click element   ${timesheet_placement}
-        sleep   2s
 this test case is to test resubmit rejected timesheets
         Input Text  ${email}    ${Employee_Logins1}[Email]
-        sleep   2s
         Input Password  ${pwd}  ${Employee_Logins1}[Password]
-        sleep   2s
         Click Element   ${submit}
-        sleep   20s
+        sleep   5s
         Click Element   ${flairTec}
-        sleep   10s
+        sleep   5s
         click element   ${timesheets2}
         sleep   5s
         click element   ${timesheet_rejectedtab}
-        sleep   2s
         click element   ${timesheet_rejectedit}
-        sleep   2s
 #        click element   ${uploaddocrej}
-#        sleep   2s
 #        choose file     ${uploaddocrej}     C:\Users\durga deepika\Pictures\Screenshots\Screenshot(9).png
-#        sleep  10s
+#        sleep  6s
         click element   ${timesheet_rejupdate}
-        sleep   2s
         click element   ${timesheet_rejsubmit}
-        sleep   3s
         wait until page contains    Timesheet updated successfully
 this test case is to test resubmit pending timesheets
          Input Text  ${email}    ${Employee_Logins1}[Email]
-        sleep   2s
         Input Password  ${pwd}  ${Employee_Logins1}[Password]
-        sleep   2s
         Click Element   ${submit}
-        sleep   20s
+        sleep   5s
         Click Element   ${flairTec}
-        sleep   10s
+        sleep   5s
         click element   ${timesheets2}
         sleep   5s
         click element   ${timesheet_pendingedit}
-        sleep  2s
          click element   ${timesheet_rejupdate}
-        sleep   2s
         click element   ${timesheet_rejsubmit}
-        sleep   3s
         wait until page contains    Timesheet updated successfully
 this test case is to test accept timesheets
          Input Text   ${email}    ${admin_Login}[Email]
-        sleep   2s
         Input Password  ${pwd}   ${admin_Login}[Password]
-        sleep   2s
         Click Element   ${submit}
-        sleep   20s
+        sleep   5s
         Click Element   ${flairTec}
-        sleep   10s
-        Click Element   ${timesheet_admintimesheet}
-        sleep   10s
+        sleep   5s
+        Click Element   ${timesheet_icon}
+        sleep   2s
         click element   ${timesheet_adminaccept}
-        sleep   2s
         click element   ${timesheet_adminaprrove}
-        sleep   2s
         wait until page contains  Timesheet approved successfully
 this test case is to test reject timesheets
         Input Text  ${email}    ${admin_Login}[Email]
-        sleep   2s
         Input Password  ${pwd}   ${admin_Login}[Password]
-        sleep   2s
         Click Element   ${submit}
-        sleep   20s
+        sleep   5s
         Click Element   ${flairTec}
-        sleep   10s
-        Click Element   ${timesheet_admintimesheet}
-        sleep   10s
-        click element   ${timesheet_adminreject}
-        sleep   3s
-        Input Text  ${timesheet_rejcomment}       bad
+        sleep   5s
+        Click Element   ${timesheet_icon}
         sleep   2s
+        click element   ${timesheet_adminreject}
+        Input Text  ${timesheet_rejcomment}       bad
         Click Element   ${timesheet_adminrej1}
-#        sleep   1s
-#        wait until page contains    Timesheet rejected successfully
+        wait until page contains    Timesheet rejected successfully
+
+this test case is to test approve the rejected timesheets
+        Input Text  ${email}    ${admin_Login}[Email]
+        Input Password  ${pwd}   ${admin_Login}[Password]
+        Click Element   ${submit}
+        sleep   5s
+        Click Element   ${flairTec}
+        sleep   3s
+        Click Element   ${timesheet_icon}
+        sleep   5s
+        click element   ${timesheet_adminrejecttab}
+        click element   ${timesheet_rejapprove}
+        click element   ${timesheet_rejapprovebutt}
+        wait until page contains  Timesheet approved successfully
+this test case is to test reject the approved timesheets
+        Input Text  ${email}    ${admin_Login}[Email]
+        Input Password  ${pwd}   ${admin_Login}[Password]
+        Click Element   ${submit}
+        sleep   7s
+        Click Element   ${flairTec}
+        sleep   3s
+        Click Element   ${timesheet_icon}
+        sleep   5s
+        click element  ${timesheet_adminapprovetab}
+        click element  ${timesheet_approverejicon}
+        Input Text   ${timesheet_apprejcomment}     check
+        click element       ${timesheet_approverejbutt}
+        wait until page contains    Timesheet rejected successfully
+
+
         #............................invoice.................................#
 this test case is to test the mailsent in invoices
         Input Text  ${email}    ${admin_Login}[Email]
