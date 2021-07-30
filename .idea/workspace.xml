@@ -12,7 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8a678cb5-eb29-4bfe-8b97-2351a4f9e93a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Globalvariables/xpath.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Globalvariables/xpath.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/keywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/keywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

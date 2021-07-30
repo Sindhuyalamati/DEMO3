@@ -2538,8 +2538,8 @@ This test case is to test invite employee through bulk invitation
         sleep   15s
         Click Element   ${invitemultiple_button}
         Sleep   15s
-        Click Element   ${InviteButton_2}
-        sleep   15s
+#        Click Element   ${InviteButton_2}
+#        sleep   15s
 
 
 

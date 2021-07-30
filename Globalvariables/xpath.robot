@@ -533,7 +533,7 @@ ${client_donedoccli}   //html/body/div[9]/div[3]/div/div[2]/button[2]
 #......................Invite employee....................#
 ${InviteEmployee_Icon}   //*[@id="root"]/div/div/div/div/a[9]/li/div[2]/span
 ${InviteButton_1}       //*[@id="em-invite-dialog-button"]
-${EmployeeSinInvite_Mail}  //html/body/div[7]/div[3]/div/div[2]/div/div[5]/div/div/input
-${InviteButton_2}  //html/body/div[7]/div[3]/div/div[3]/button[2]
-${InviteMultiple_Button}   //html/body/div[7]/div[3]/div/div[3]/span/div/div/div/label
+${EmployeeSinInvite_Mail}  //html/body/div[9]/div[3]/div/div[2]/div/div[5]/div/div/input
+${InviteButton_2}  //html/body/div[9]/div[3]/div/div[3]/button[2]
+${InviteMultiple_Button}   //html/body/div[9]/div[3]/div/div[3]/span/div
 ${Menubar}   //*[@id="root"]/div/div/header/div/button
