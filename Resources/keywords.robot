@@ -350,52 +350,52 @@ This test case is to test the Passport
         Sleep    2s
         capture page screenshot
 This test case is to link the task.
-        Input Text  ${email}    &{admin_Login}[Email]
-        Input Password  ${pwd}  &{admin_Login}[Password]
+        Input Text  ${email}    ${admin_Login}[Email]
+        Input Password  ${pwd}  ${admin_Login}[Password]
         Click Element   ${submit}
         sleep   9s
-        click element    ${Flairdev}
+        click element    ${TM_flair_dev}
         Sleep    10s
-        Click Element   ${taskmanegement1}
-        sleep   2s
-        Input Text   ${projectserach}   flair
-        sleep   2s
-        click element   ${project}
-        sleep   5s
-        click element   ${tasks}
-        sleep   2s
-        click element   ${task1}
-        sleep   2s
-        click element  ${linktask}
-        sleep   2s
-        click element   ${selecttask9}
-        sleep   5s
-        click element   ${link}
-        sleep   2s
+        goto    ${TM_taskmanagement_1}
+        sleep  6s
+        Input Text    ${TM_project_serach}    ${T linktask}[namesearch]
+        sleep  6s
+        click element    ${TM_project}
+        sleep  6s
+        click element    ${TM_tasks}
+        sleep  5s
+        click element    ${TM_task1}
+        sleep  6s
+        click element  ${TM_link_task}
+        sleep    2s
+        click element    ${TM_select_task9}
+       # sleep    5s
+       # click element    ${TM_link}
+       # sleep    2s
 #        wait until page contains    Tasks Linked
 This test case is to unlink the task.
-         Input Text  ${email}    &{admin_Login}[Email]
-        Input Password  ${pwd}  &{admin_Login}[Password]
+         Input Text  ${email}    ${admin_Login}[Email]
+        Input Password  ${pwd}  ${admin_Login}[Password]
         Click Element   ${submit}
         sleep   9s
-        click element    ${Flairdev}
+        click element    ${TM_flair_dev}
         Sleep    10s
-        Click Element   ${taskmanegement1}
-        sleep   2s
-        Input Text   ${projectserach}   flair
-        sleep   2s
-        click element   ${project}
-        sleep   5s
-        click element   ${tasks}
-        sleep   2s
-        click element   ${task1}
-        sleep   2s
-        click element   ${unlinktask}
-        sleep   2s
-        click element   ${selectunlinktask}
-        sleep   2s
-        click element   ${unlink}
-        sleep   2s
+        goto    ${TM_taskmanagement_1}
+        sleep    6s
+        Input Text    ${TM_project_serach}    ${T linktask}[namesearch]
+        sleep    5s
+        click element    ${TM_project}
+        sleep    5s
+        click element    ${TM_tasks}
+        sleep    6s
+        click element    ${TM_task1}
+        sleep    5s
+        click element    ${TM_unlink_task}
+        sleep    5s
+        click element    ${TM_select_unlink_task}
+       # sleep    5s
+       # click element    ${TM_unlink}
+       # sleep    5s
         #wait until page contains    Tasks Unlinked
 
 

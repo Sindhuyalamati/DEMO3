@@ -57,5 +57,6 @@ ${trail1}  &{TrailXpathDict}
 &{TM comment}  leavecomment=done
 &{TM newtask}  newtaskname=task 13  newtaskstartdate=02/09/2021  newtaskenddate=02/10/2020  newtaskeditenddate= 2021
 &{TM newsubtask}  newsubtaskname=task12  newsubtaskstartdate=03/08/2021  newsubtaskenddate=03/09/2020  newsubtaskeditenddate=2021
+&{T linktask}  namesearch=flair tester
 #TC_EC01_GC.robot
 &{EditClent}    clientname=testing 99   netterms=90     phno=1234567890     add1=rjy    zipcode=123456  name=xyz    jobtitle=tester     mail=abcd@gmail.com     city=tpg

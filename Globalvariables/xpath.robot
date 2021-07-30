@@ -109,19 +109,6 @@ ${Profile_EHToDate}    //*[@id="root"]/div/div/main/div[2]/div/div/div/div[2]/di
 ${Profile_EHExperience}    //*[@id="root"]/div/div/main/div[2]/div/div/div/div[2]/div/div[3]/div[2]/div/div/div/div/div/div/form/div[1]/div[9]/div/div/input
 ${Profile_EHUpdate1}     //*[@id="root"]/div/div/main/div[2]/div/div/div/div[2]/div/div[3]/div[2]/div/div/div/div/div/div/form/div[2]/button
 ${Profile_EHedit1}    //*[@id="root"]/div/div/main/div[2]/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div/div/div/button
-      #link task
-${taskmanegement1}  //*[@id="root"]/div/div/div/div/a[1]/li
-${projectserach}  //*[@id="vertical-tabpanel-0"]/div/div/div/div/div/div[1]/div[1]/div[2]/div/input
-${project}  //*[@id="vertical-tabpanel-0"]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[2]/a
-${tasks}  //*[@id="root"]/div/div/main/div[2]/div/div/div/div[1]/div/div[3]/div/div[1]/a/button
-${task1}    //*[@id="vertical-tabpanel-0"]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[4]/div/span/a/p
-${linktask}     //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/button
-${selecttask9}    //html/body/div[7]/div[3]/div/div/div/div[2]/div/div/div/table/tbody/tr[1]/td[1]/span/span[1]
-${link}     //html/body/div[7]/div[3]/div/div/div/div[1]/div[2]/button
-${unlinktask}   //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div/div/div[2]/div[3]/div/button
-${selectunlinktask}   //html/body/div[9]/div[3]/div/div/div/div[2]/div/div/div/table/tbody/tr[1]/td[1]/span
-${unlink}   //html/body/div[9]/div[3]/div/div/div/div[1]/div[2]/button
-
  # Business information
 ${url}
 ${mailid}    //*[@id="email"]
@@ -419,6 +406,20 @@ ${TM_nt_click_create}  //*[@id="tm-new-task-submit"]/span[1]
 # new subtask creation
 ${TM_nst_creation_click_project}  https://flair-technologies.web.app/console/projects/Iev89HNmSB9xHzR7Ks20/8v1qvwSI2CtjvLT7yfiy
 ${TM_nst_creation_click_subtask}  //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div/div/div[2]/div[1]/div/button
+#link task
+${TM_project_serach}  //*[@id="vertical-tabpanel-0"]/div/div/div/div/div/div[1]/div[1]/div[2]/div/input
+${TM_project}  //*[@id="vertical-tabpanel-0"]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[2]/a
+${TM_tasks}  //*[@id="root"]/div/div/main/div[2]/div/div/div/div[1]/div/div[3]/div/div[1]/a/button
+${TM_task1}    //*[@id="vertical-tabpanel-0"]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[4]/div/span/a/p
+${TM_link_task}     //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/button
+${TM_select_task9}    //html/body/div[7]/div[3]/div/div/div/div[2]/div/div/div/table/tbody/tr[1]/td[1]/span/span[1]
+${TM_link}     //html/body/div[7]/div[3]/div/div/div/div[1]/div[2]/button
+#unlink task
+${TM_unlink_task}   //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div/div/div[2]/div[3]/div/button
+${TM_select_unlink_task}   //html/body/div[9]/div[3]/div/div/div/div[2]/div/div/div/table/tbody/tr[1]/td[1]/span
+${TM_unlink}   //html/body/div[9]/div[3]/div/div/div/div[1]/div[2]/button
+#..................#Taskmanagement......................#
+
 #timesheets
 ${timesheets}    //*[@id="root"]/div/div/div/div/a[2]/li/div[1]/svg
 ${Newtimesheets}    //*[@id="root"]/div/div/main/div[2]/div/div/div/div/div[1]/a[1]/button

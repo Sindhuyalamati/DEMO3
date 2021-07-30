@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210726 15:30:29.532" rpa="false" schemaversion="2">
+<suite id="s1" name="TC UT01 GC" source="C:\TestScripts\Tests\TaskManagement\UnlinkTask\TC_UT01_GC.robot">
+<test id="s1-t1" name="link task">
+=======
 <robot generator="Robot 4.0.3 (Python 3.9.6 on win32)" generated="20210730 14:26:45.798" rpa="false" schemaversion="2">
 <suite id="s1" name="TC SI01 GC" source="C:\TestScripts\Tests\Authentication\InvitEemployee\SingleInvitation\TC_SI01_GC.robot">
 <test id="s1-t1" name="TC_SI01_GC">
@@ -10,20 +15,34 @@
 <suite id="s1-s1-s1-s1" name="AcceptRejectExpenses" source="C:\gitprojects\TestScripts\Tests\Authentication\AcceptRejectExpenses">
 <suite id="s1-s1-s1-s1-s1" name="TC ARE01 GC" source="C:\gitprojects\TestScripts\Tests\Authentication\AcceptRejectExpenses\TC_ARE01_GC.robot">
 <test id="s1-s1-s1-s1-s1-t1" name="TC_ARE01_GC.robot">
+
 <kw name="commonsetup" library="common" type="SETUP">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${prod}</arg>
 <arg>${Chrome}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
+
+<msg timestamp="20210726 15:30:29.849" level="INFO">Opening browser 'gc' to base url 'https://workforce.flairtechno.com/login'.</msg>
+<status status="PASS" starttime="20210726 15:30:29.849" endtime="20210726 15:30:31.688"/>
+=======
 <msg timestamp="20210730 14:26:46.383" level="INFO">Opening browser 'gc' to base url 'https://workforce.flairtechno.com/login'.</msg>
 <status status="PASS" starttime="20210730 14:26:46.383" endtime="20210730 14:26:48.637"/>
 =======
 <msg timestamp="20210730 09:56:58.793" level="INFO">Opening browser 'gc' to base url 'https://workforce.flairtechno.com/login'.</msg>
 <status status="PASS" starttime="20210730 09:56:58.793" endtime="20210730 09:57:05.800"/>
+
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
+
+<msg timestamp="20210726 15:30:36.695" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210726 15:30:31.688" endtime="20210726 15:30:36.696"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210726 15:30:36.696" endtime="20210726 15:30:36.815"/>
+=======
 
 <msg timestamp="20210730 14:26:53.653" level="INFO">Slept 5 seconds</msg>
 <status status="PASS" starttime="20210730 14:26:48.638" endtime="20210730 14:26:53.653"/>
@@ -44,6 +63,14 @@
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
 
+<msg timestamp="20210726 15:30:41.819" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210726 15:30:36.815" endtime="20210726 15:30:41.819"/>
+</kw>
+<status status="PASS" starttime="20210726 15:30:29.849" endtime="20210726 15:30:41.819"/>
+</kw>
+<kw name="This test case is to unlink the task." library="keywords">
+=======
+
 <msg timestamp="20210730 14:26:58.793" level="INFO">Slept 5 seconds</msg>
 <status status="PASS" starttime="20210730 14:26:53.780" endtime="20210730 14:26:58.793"/>
 </kw>
@@ -58,10 +85,15 @@
 </kw>
 <kw name="This test case is to test the accept the expenses." library="keywords">
 
+
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${email}</arg>
 <arg>${admin_Login}[Email]</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+
+<msg timestamp="20210726 15:30:41.819" level="INFO">Typing text 'admin@flair.com' into text field '//*[@id="email"]'.</msg>
+<status status="PASS" starttime="20210726 15:30:41.819" endtime="20210726 15:30:42.035"/>
+=======
 
 <msg timestamp="20210730 14:26:58.796" level="INFO">Typing text 'admin@flair.com' into text field '//*[@id="email"]'.</msg>
 <status status="PASS" starttime="20210730 14:26:58.795" endtime="20210730 14:26:58.980"/>
@@ -69,11 +101,18 @@
 <msg timestamp="20210730 09:57:15.925" level="INFO">Typing text 'admin@flair.com' into text field '//*[@id="email"]'.</msg>
 <status status="PASS" starttime="20210730 09:57:15.925" endtime="20210730 09:57:16.261"/>
 
+
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <arg>${pwd}</arg>
 <arg>${admin_Login}[Password]</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
+
+<msg timestamp="20210726 15:30:42.035" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
+<msg timestamp="20210726 15:30:42.090" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210726 15:30:42.194" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210726 15:30:42.035" endtime="20210726 15:30:42.195"/>
+=======
 
 <msg timestamp="20210730 14:26:58.981" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
 <msg timestamp="20210730 14:26:59.030" level="INFO">Temporally setting log level to: NONE</msg>
@@ -90,28 +129,53 @@
 <arg>${submit}</arg>
 <doc>Click the element identified by ``locator``.</doc>
 
+<msg timestamp="20210726 15:30:42.195" level="INFO">Clicking element '//*[@id="root"]/div/div/main/div[2]/div/form/button'.</msg>
+<status status="PASS" starttime="20210726 15:30:42.195" endtime="20210726 15:30:42.280"/>
+=======
+
 <msg timestamp="20210730 14:26:59.147" level="INFO">Clicking element '//*[@id="root"]/div/div/main/div[2]/div/form/button'.</msg>
 <status status="PASS" starttime="20210730 14:26:59.146" endtime="20210730 14:26:59.226"/>
 =======
 <msg timestamp="20210730 09:57:16.540" level="INFO">Clicking element '//*[@id="root"]/div/div/main/div[2]/div/form/button'.</msg>
 <status status="PASS" starttime="20210730 09:57:16.540" endtime="20210730 09:57:16.673"/>
+
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>9s</arg>
 <doc>Pauses the test executed for the given time.</doc>
+
+<msg timestamp="20210726 15:30:51.290" level="INFO">Slept 9 seconds</msg>
+<status status="PASS" starttime="20210726 15:30:42.281" endtime="20210726 15:30:51.290"/>
+=======
 <msg timestamp="20210730 09:57:25.676" level="INFO">Slept 9 seconds</msg>
 <status status="PASS" starttime="20210730 09:57:16.673" endtime="20210730 09:57:25.676"/>
+
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
-<arg>${FlairTec}</arg>
+<arg>${TM_flair_dev}</arg>
 <doc>Click the element identified by ``locator``.</doc>
+
+<msg timestamp="20210726 15:30:51.290" level="INFO">Clicking element '//*[@id="root"]/div/div/div/div/main/div/div/div[3]/div/button/div/div/div[1]/h2'.</msg>
+<status status="PASS" starttime="20210726 15:30:51.290" endtime="20210726 15:30:55.231"/>
+=======
 <msg timestamp="20210730 09:57:25.676" level="INFO">Clicking element '//*[@id="root"]/div/div/div/div/main/div/div/div[3]/div/button'.</msg>
 <status status="PASS" starttime="20210730 09:57:25.676" endtime="20210730 09:57:28.512"/>
+
 
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
+
+<msg timestamp="20210726 15:31:05.241" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20210726 15:30:55.231" endtime="20210726 15:31:05.241"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${TM_taskmanagement_1}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20210726 15:31:05.241" level="INFO">Opening url 'https://flair-technologies.web.app/console/projects'</msg>
+<status status="PASS" starttime="20210726 15:31:05.241" endtime="20210726 15:31:05.552"/>
+=======
 
 <msg timestamp="20210730 14:27:04.228" level="INFO">Slept 5 seconds</msg>
 <status status="PASS" starttime="20210730 14:26:59.226" endtime="20210730 14:27:04.228"/>
@@ -124,10 +188,22 @@
 <doc>Click the element identified by ``locator``.</doc>
 <msg timestamp="20210730 09:57:38.514" level="INFO">Clicking element '//*[@id="root"]/div/div/div/div/a[3]/li/div[1]'.</msg>
 <status status="PASS" starttime="20210730 09:57:38.513" endtime="20210730 09:57:39.140"/>
+
 </kw>
 <kw name="Sleep" library="BuiltIn">
-<arg>5s</arg>
+<arg>6s</arg>
 <doc>Pauses the test executed for the given time.</doc>
+
+<msg timestamp="20210726 15:31:11.560" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20210726 15:31:05.552" endtime="20210726 15:31:11.560"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${TM_project_serach}</arg>
+<arg>${T linktask}[namesearch]</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210726 15:31:11.560" level="INFO">Typing text 'flair tester' into text field '//*[@id="vertical-tabpanel-0"]/div/div/div/div/div/div[1]/div[1]/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20210726 15:31:11.560" endtime="20210726 15:31:11.778"/>
+=======
 <msg timestamp="20210730 09:57:44.142" level="INFO">Slept 5 seconds</msg>
 <status status="PASS" starttime="20210730 09:57:39.140" endtime="20210730 09:57:44.142"/>
 </kw>
@@ -144,20 +220,66 @@
   (Session info: chrome=92.0.4515.107)
 </msg>
 <status status="FAIL" starttime="20210730 09:57:44.142" endtime="20210730 09:57:44.518"/>
+
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
+
+<msg timestamp="20210726 15:31:16.785" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210726 15:31:11.779" endtime="20210726 15:31:16.785"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${TM_project}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210726 15:31:16.786" level="INFO">Clicking element '//*[@id="vertical-tabpanel-0"]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[2]/a'.</msg>
+<status status="PASS" starttime="20210726 15:31:16.786" endtime="20210726 15:31:16.926"/>
+=======
 <status status="NOT RUN" starttime="20210730 09:57:44.518" endtime="20210730 09:57:44.518"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Expenses_Aprovebutton}</arg>
 <doc>Click the element identified by ``locator``.</doc>
 <status status="NOT RUN" starttime="20210730 09:57:44.518" endtime="20210730 09:57:44.518"/>
+
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
+
+<msg timestamp="20210726 15:31:21.930" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210726 15:31:16.926" endtime="20210726 15:31:21.930"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${TM_tasks}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210726 15:31:21.930" level="INFO">Clicking element '//*[@id="root"]/div/div/main/div[2]/div/div/div/div[1]/div/div[3]/div/div[1]/a/button'.</msg>
+<status status="PASS" starttime="20210726 15:31:21.930" endtime="20210726 15:31:22.126"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>6s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210726 15:31:28.137" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20210726 15:31:22.126" endtime="20210726 15:31:28.137"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${TM_task1}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210726 15:31:28.137" level="INFO">Clicking element '//*[@id="vertical-tabpanel-0"]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[4]/div/span/a/p'.</msg>
+<status status="PASS" starttime="20210726 15:31:28.137" endtime="20210726 15:31:28.224"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210726 15:31:33.230" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210726 15:31:28.225" endtime="20210726 15:31:33.231"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${TM_unlink_task}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210726 15:31:33.232" level="INFO">Clicking element '//*[@id="root"]/div/div/main/div[2]/div/div/div/div/div/div/div[2]/div[3]/div/button'.</msg>
+<status status="PASS" starttime="20210726 15:31:33.231" endtime="20210726 15:31:33.420"/>
+=======
 <status status="NOT RUN" starttime="20210730 09:57:44.519" endtime="20210730 09:57:44.519"/>
 </kw>
 <status status="FAIL" starttime="20210730 09:57:15.924" endtime="20210730 09:57:44.519"/>
@@ -385,10 +507,41 @@
 <doc>Click the element identified by ``locator``.</doc>
 <msg timestamp="20210730 14:27:23.179" level="INFO">Clicking element '//*[@id="em-invite-dialog-button"]'.</msg>
 <status status="PASS" starttime="20210730 14:27:23.178" endtime="20210730 14:27:23.352"/>
+
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
+
+<msg timestamp="20210726 15:31:38.432" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210726 15:31:33.421" endtime="20210726 15:31:38.432"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${TM_select_unlink_task}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210726 15:31:38.432" level="INFO">Clicking element '//html/body/div[9]/div[3]/div/div/div/div[2]/div/div/div/table/tbody/tr[1]/td[1]/span'.</msg>
+<status status="PASS" starttime="20210726 15:31:38.432" endtime="20210726 15:31:38.536"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210726 15:31:43.539" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210726 15:31:38.536" endtime="20210726 15:31:43.539"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${TM_unlink}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210726 15:31:43.539" level="INFO">Clicking element '//html/body/div[9]/div[3]/div/div/div/div[1]/div[2]/button'.</msg>
+<status status="PASS" starttime="20210726 15:31:43.539" endtime="20210726 15:31:43.694"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210726 15:31:48.695" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210726 15:31:43.694" endtime="20210726 15:31:48.695"/>
+</kw>
+<status status="PASS" starttime="20210726 15:30:41.819" endtime="20210726 15:31:48.696"/>
+=======
 <msg timestamp="20210730 14:27:28.356" level="INFO">Slept 5 seconds</msg>
 <status status="PASS" starttime="20210730 14:27:23.352" endtime="20210730 14:27:28.356"/>
 </kw>
@@ -591,11 +744,28 @@
 
 </kw>
 <status status="PASS" starttime="20210730 09:58:52.234" endtime="20210730 10:00:54.178"/>
+
 </kw>
 <kw name="commonteardown" library="common" type="TEARDOWN">
 <kw name="Sleep" library="BuiltIn">
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
+
+<msg timestamp="20210726 15:31:53.709" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210726 15:31:48.697" endtime="20210726 15:31:53.709"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210726 15:31:53.709" endtime="20210726 15:31:55.892"/>
+</kw>
+<status status="PASS" starttime="20210726 15:31:48.697" endtime="20210726 15:31:55.893"/>
+</kw>
+<doc>This test case is to test the Unlink task.</doc>
+<status status="PASS" starttime="20210726 15:30:29.848" endtime="20210726 15:31:55.894"/>
+</test>
+<doc>This test case is to test the Unlink task</doc>
+<status status="PASS" starttime="20210726 15:30:29.537" endtime="20210726 15:31:55.898"/>
+=======
 <msg timestamp="20210730 10:00:59.180" level="INFO">Slept 5 seconds</msg>
 <status status="PASS" starttime="20210730 10:00:54.178" endtime="20210730 10:00:59.180"/>
 </kw>
@@ -751,6 +921,7 @@
 </test>
 <doc>test the single invitation</doc>
 <status status="PASS" starttime="20210730 14:26:45.800" endtime="20210730 14:27:45.235"/>
+
 </suite>
 <statistics>
 <total>
@@ -759,6 +930,19 @@
 <tag>
 </tag>
 <suite>
+
+<stat pass="1" fail="0" skip="0" id="s1" name="TC UT01 GC">TC UT01 GC</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210726 15:30:29.734" level="ERROR">Error in file 'C:\TestScripts\Globalvariables\xpath.robot' on line 344: Setting variable '${ wiki search' failed: Invalid variable name '${ wiki search'.</msg>
+<msg timestamp="20210726 15:30:29.737" level="ERROR">Error in file 'C:\TestScripts\Globalvariables\xpath.robot' on line 348: Setting variable '${ wiki comment button} //*[@id="root"]/div/div/main/div[2]/div/div/div/div[1]/div[3]/div/div/div/div/div[1]/form/button/span[1]' failed: Invalid variable name '${ wiki comment button} //*[@id="root"]/div/div/main/div[2]/div/div/div/div[1]/div[3]/div/div/div/div/div[1]/form/button/span[1]'.</msg>
+<msg timestamp="20210726 15:30:29.738" level="ERROR">Error in file 'C:\TestScripts\Globalvariables\xpath.robot' on line 350: Setting variable '${ wiki comments 2} //*[@id="root"]/div/div/main/div[2]/div/div/div/div[1]/div[3]/div/div/div/div/div[1]/form/div/div/div[3]/div[1]/p' failed: Invalid variable name '${ wiki comments 2} //*[@id="root"]/div/div/main/div[2]/div/div/div/div[1]/div[3]/div/div/div/div/div[1]/form/div/div/div[3]/div[1]/p'.</msg>
+<msg timestamp="20210726 15:30:29.738" level="ERROR">Error in file 'C:\TestScripts\Globalvariables\xpath.robot' on line 354: Setting variable '${wiki edit article } //*[@id="root"]/div/div/main/div[2]/div/div/div/div[2]/div/div[10]/div[1]/a/button/span[1]/svg' failed: Invalid variable name '${wiki edit article } //*[@id="root"]/div/div/main/div[2]/div/div/div/div[2]/div/div[10]/div[1]/a/button/span[1]/svg'.</msg>
+<msg timestamp="20210726 15:30:29.739" level="ERROR">Error in file 'C:\TestScripts\Globalvariables\xpath.robot' on line 355: Setting variable '${ wiki edit choose catogry button} //*[@id="root"]/div/div/main/div[2]/div/div/div/div[2]/div/main/div/form/div[1]/div[2]/div/div/div/div/button[2]/span[1]/svg' failed: Invalid variable name '${ wiki edit choose catogry button} //*[@id="root"]/div/div/main/div[2]/div/div/div/div[2]/div/main/div/form/div[1]/div[2]/div/div/div/div/button[2]/span[1]/svg'.</msg>
+</errors>
+</robot>
+=======
 <stat pass="1" fail="0" skip="0" id="s1" name="TC SI01 GC">TC SI01 GC</stat>
 </suite>
 </statistics>
@@ -2137,4 +2321,5 @@
 <doc>Closes the current browser.</doc>
 <status status="PASS" starttime="20210730 10:12:21.952" endtime="20210730 10:12:27.029"/>
 </kw>
+
 
