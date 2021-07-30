@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation      test the task management
 Resource  ../../../Resources/common.robot
-# robot -d test/Results test/Tests/TaskManagement/NewProject/TC_NP01_GC.robot
+# robot -d Results Tests/TaskManagement/NewProject/TC_NP01_GC.robot
 Resource  ../../../Resources/keywords.robot
 Library  SeleniumLibrary
 Library  string
