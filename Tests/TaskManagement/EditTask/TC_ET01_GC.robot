@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation      this test is to test the edit task in task management.
 Resource  ../../../Resources/common.robot
-# robot -d test/Results test/Tests/TaskManagement/EditTask/TC_ET01_GC.robot
+# robot -d Results Tests/TaskManagement/EditTask/TC_ET01_GC.robot
 Resource  ../../../Resources/keywords.robot
 Library  SeleniumLibrary
 Library  string

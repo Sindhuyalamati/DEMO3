@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation      this test is to test the new sub task creation in task management for admin logins.
 Resource  ../../../Resources/common.robot
-# robot -d test/Results test/Tests/TaskManagement/NewSubTaskCreation/TC_ST01_GC.robot
+# robot -d Results Tests/TaskManagement/NewSubTaskCreation/TC_ST01_GC.robot
 Resource  ../../../Resources/keywords.robot
 Library  SeleniumLibrary
 Library  string
