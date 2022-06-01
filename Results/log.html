@@ -5,7 +5,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="-1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="Robot Framework 4.0.3 (Python 3.9.6 on win32)" name="Generator">
+<meta content="Robot Framework 4.1.1 (Python 3.9.5 on win32)" name="Generator">
 <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKcAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAqAAAAAAAAAAAAAAAAAAAALIAAAD/AAAA4AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA4AAAAP8AAACxAAAAAAAAAKYAAAD/AAAAuwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/AAAA/wAAAKkAAAD6AAAAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN8AAAD/AAAA+gAAAMMAAAAAAAAAAgAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAADAAAAAAAAADaAAAA/wAAAPoAAADDAAAAAAAAAIsAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAANEAAAAAAAAA2gAAAP8AAAD6AAAAwwAAAAAAAAAAAAAAMgAAADIAAAAyAAAAMgAAADIAAAAyAAAAMgAAADIAAAAFAAAAAAAAANoAAAD/AAAA+gAAAMMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADaAAAA/wAAAPoAAADDAAAAAAAAADwAAAB8AAAAAAAAAGAAAABcAAAAAAAAAH8AAABKAAAAAAAAAAAAAAAAAAAA2gAAAP8AAAD6AAAAwwAAAAAAAADCAAAA/wAAACkAAADqAAAA4QAAAAAAAAD7AAAA/wAAALAAAAAGAAAAAAAAANoAAAD/AAAA+gAAAMMAAAAAAAAAIwAAAP4AAAD/AAAA/wAAAGAAAAAAAAAAAAAAAMkAAAD/AAAAigAAAAAAAADaAAAA/wAAAPoAAADDAAAAAAAAAAAAAAAIAAAAcAAAABkAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAA2gAAAP8AAAD7AAAAywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN4AAAD/AAAAqwAAAP8AAACvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALIAAAD/AAAAsgAAAAAAAAC5AAAA/wAAAMoAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMkAAAD/AAAAvAAAAAAAAAAAAAAAAAAAAKwAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAArQAAAAAAAAAAwAMAAIABAAAf+AAAP/wAAD/8AAAgBAAAP/wAAD/8AAA//AAAJIwAADHEAAA//AAAP/wAAB/4AACAAQAAwAMAAA==">
 <style media="all" type="text/css">
 /* Generic and misc styles */
@@ -588,10 +588,10 @@ function drawCallback(element, childElement, childrenNames) {
     }
 }
 function expandSuite(suite) {
-    if (suite.status == "PASS")
-        expandElement(suite);
-    else
+    if (suite.status == "FAIL")
         expandFailed(suite);
+    else
+        expandElement(suite);
 }
 function expandElement(item, retryCount) {
     retryCount = typeof retryCount !== 'undefined' ? retryCount : 3;
@@ -1388,7 +1388,10 @@ window.testdata = function () {
     function createBodyItem(parent, element, strings, index) {
         if (element[0] == MESSAGE_TYPE)
             return createMessage(element, strings);
-        return createKeyword(parent, element, strings, index);
+        var messages = util.filter(parent.children(), function (child) {
+            return child.type == 'message';
+        })
+        return createKeyword(parent, element, strings, index - messages.length);
     }
     function createKeyword(parent, element, strings, index) {
         var kw = model.Keyword({
@@ -1796,25 +1799,25 @@ function stopPropagation(event) {
 window.output = {};
 </script>
 <script type="text/javascript">
-window.output["suite"] = [1,2,3,4,[],[1,0,164303],[],[[5,0,6,[],[1,681,163620],[[1,7,8,0,0,0,0,0,[1,682,13134],[[0,9,10,0,11,12,0,0,[1,683,2982],[[8,683,2,13]]],[0,14,15,0,16,17,0,0,[1,3666,5008],[[8,8674,2,18]]],[0,19,10,0,20,0,0,0,[1,8674,135],[]],[0,14,15,0,16,17,0,0,[1,8810,5005],[[8,13815,2,18]]]]],[0,21,22,0,0,0,0,0,[1,13816,143077],[[0,23,10,0,24,25,0,0,[1,13816,194],[[8,13817,2,26]]],[0,14,15,0,16,27,0,0,[1,14010,15003],[[8,29013,2,28]]],[0,29,10,0,30,31,0,0,[1,29013,166],[[8,29014,2,32],[8,29059,2,33],[8,29178,2,34]]],[0,14,15,0,16,27,0,0,[1,29179,15008],[[8,44187,2,28]]],[0,35,10,0,36,37,0,0,[1,44187,80],[[8,44187,2,38]]],[0,14,15,0,16,27,0,0,[1,44268,15013],[[8,59281,2,28]]],[0,35,10,0,36,39,0,0,[1,59282,2475],[[8,59283,2,40]]],[0,14,15,0,16,41,0,0,[1,61758,17007],[[8,78765,2,42]]],[0,35,10,0,36,43,0,0,[1,78765,93],[[8,78766,2,44]]],[0,14,15,0,16,27,0,0,[1,78858,15005],[[8,93863,2,28]]],[0,35,10,0,36,45,0,0,[1,93863,151],[[8,93864,2,46]]],[0,14,15,0,16,27,0,0,[1,94014,15008],[[8,109022,2,28]]],[0,35,10,0,36,47,0,0,[1,109022,182],[[8,109023,2,48]]],[0,14,15,0,16,27,0,0,[1,109205,15003],[[8,124208,2,28]]],[0,23,10,0,24,49,0,0,[1,124208,477],[[8,124209,2,50]]],[0,14,15,0,16,27,0,0,[1,124685,15012],[[8,139697,2,28]]],[0,35,10,0,36,51,0,0,[1,139697,166],[[8,139698,2,52]]],[0,14,15,0,16,53,0,0,[1,139864,2005],[[8,141869,2,54]]],[0,55,10,0,56,57,0,0,[1,141869,14],[]],[0,14,15,0,16,27,0,0,[1,141884,15009],[[8,156893,2,28]]]]],[2,58,8,0,0,0,0,0,[1,156894,7406],[[0,14,15,0,16,17,0,0,[1,156894,5013],[[8,161907,2,18]]],[0,59,10,0,60,0,0,0,[1,161907,2393],[]]]]]]],[],[1,1,0,0]];
+window.output["suite"] = [1,2,3,4,[],[0,0,113740],[],[[5,0,6,[],[0,1063,112677,7],[[1,8,9,0,0,0,0,0,[1,1063,27092],[[0,10,11,0,12,13,0,0,[1,1063,16918],[[8,1063,2,14]]],[0,15,16,0,17,18,0,0,[1,17981,5019],[[8,23000,2,19]]],[0,20,11,0,21,0,0,0,[1,23000,142],[]],[0,15,16,0,17,18,0,0,[1,23142,5013],[[8,28155,2,19]]]]],[0,22,11,0,23,24,0,0,[1,28155,0],[]],[0,25,26,0,0,0,0,0,[0,28155,73844],[[0,27,11,0,28,29,0,0,[1,28155,9287],[[8,28155,2,30]]],[0,31,11,0,32,33,0,0,[1,37442,9204],[[8,37442,2,34],[8,43511,2,35],[8,46646,2,36]]],[0,37,11,0,38,39,0,0,[1,46646,6109],[[8,46646,2,40]]],[0,15,16,0,17,18,0,0,[1,52755,5001],[[8,57756,2,19]]],[0,37,11,0,38,41,0,0,[1,57756,7790],[[8,57756,2,42]]],[0,15,16,0,17,18,0,0,[1,65547,5004],[[8,70551,2,19]]],[0,37,11,0,38,43,0,0,[1,70551,6476],[[8,70551,2,44]]],[0,37,11,0,38,45,0,0,[1,77027,6235],[[8,77027,2,46]]],[0,37,11,0,38,47,0,0,[1,83262,6146],[[8,83263,2,48]]],[0,37,11,0,38,49,0,0,[1,89408,6146],[[8,89409,2,50]]],[0,27,11,0,28,51,0,0,[0,95554,6429],[[8,95554,2,52],[0,53,11,0,54,0,0,0,[1,98597,3386],[[8,101983,2,55]]],[8,101983,5,7]]]]],[2,56,9,0,0,0,0,0,[1,101999,11741],[[0,15,16,0,17,18,0,0,[1,101999,5003],[[8,107002,2,19]]],[0,57,11,0,58,0,0,0,[1,107002,6738],[]]]]]]],[],[1,0,1,0]];
 </script>
 <script type="text/javascript">
 window.output["strings"] = [];
 </script>
 <script type="text/javascript">
-window.output["strings"] = window.output["strings"].concat(["*","*TC SI01 GC","*C:\\TestScripts\\Tests\\Authentication\\InvitEemployee\\SingleInvitation\\TC_SI01_GC.robot","*../Tests/Authentication/InvitEemployee/SingleInvitation/TC_SI01_GC.robot","*<p>test the single invitation\x3c/p>","*TC_SI01_GC","*<p>This test case is to test invite employee through single invitation\x3c/p>","*commonsetup","*common","*Open Browser","*SeleniumLibrary","*<p>Opens a new browser instance to the optional <code>url\x3c/code>.\x3c/p>","*${prod}, ${Chrome}","*Opening browser 'gc' to base url '<a href=\"https://workforce.flairtechno.com/login\">https://workforce.flairtechno.com/login\x3c/a>'.","*Sleep","*BuiltIn","*<p>Pauses the test executed for the given time.\x3c/p>","*5s","*Slept 5 seconds","*Maximize Browser Window","*<p>Maximizes current browser window.\x3c/p>","*This test case is to test invite employee through single invitation","*keywords","*Input Text","*<p>Types the given <code>text\x3c/code> into the text field identified by <code>locator\x3c/code>.\x3c/p>","*${email}, ${admin_Login}[Email]","*Typing text 'admin@flair.com' into text field '//*[@id=\"email\"]'.","*15s","*Slept 15 seconds","*Input Password","*<p>Types the given password into the text field identified by <code>locator\x3c/code>.\x3c/p>","*${pwd}, ${admin_Login}[Password]","*Typing password into text field '//*[@id=\"password\"]'.","*Temporally setting log level to: NONE","*Log level changed from NONE to INFO.","*Click Element","*<p>Click the element identified by <code>locator\x3c/code>.\x3c/p>","*${submit}","*Clicking element '//*[@id=\"root\"]/div/div/main/div[2]/div/form/button'.","*${flairTec}","*Clicking element '//*[@id=\"root\"]/div/div/div/div/main/div/div/div[3]/div/button'.","*17s","*Slept 17 seconds","*${Menubar}","*Clicking element '//*[@id=\"root\"]/div/div/header/div/button'.","*${InviteEmployee_Icon}","*Clicking element '//*[@id=\"root\"]/div/div/div/div/a[9]/li/div[2]/span'.","*${InviteButton_1}","*Clicking element '//*[@id=\"em-invite-dialog-button\"]'.","*${EmployeeSinInvite_Mail}, reo11234567890@gmail.com","*Typing text 'reo11234567890@gmail.com' into text field '//html/body/div[9]/div[3]/div/div[2]/div/div[5]/div/div/input'.","*${InviteButton_2}","*Clicking element '//html/body/div[9]/div[3]/div/div[3]/button[2]'.","*2s","*Slept 2 seconds","*Wait Until Page Contains","*<p>Waits until <code>text\x3c/code> appears on the current page.\x3c/p>","*reo11234567890@gmail.com is already registered","*commonteardown","*Close Browser","*<p>Closes the current browser.\x3c/p>"]);
+window.output["strings"] = window.output["strings"].concat(["*","*TC TS01 GC","*C:\\TestScripts\\Tests\\Authentication\\Timesheets\\TC_TS01_GC.robot","*../Tests/Authentication/Timesheets/TC_TS01_GC.robot","*<p>This test case is to test the create timesheets\x3c/p>","*submit time sheets","*<p>this test case is to test the timesheets\x3c/p>","*InvalidElementStateException: Message: invalid element state\n  (Session info: chrome=100.0.4896.127)\n","*commonsetup","*common","*Open Browser","*SeleniumLibrary","*<p>Opens a new browser instance to the optional <code>url\x3c/code>.\x3c/p>","*${prod}, ${Chrome}","*Opening browser 'gc' to base url '<a href=\"https://flair-technologies.web.app/\">https://flair-technologies.web.app/\x3c/a>'.","*Sleep","*BuiltIn","*<p>Pauses the test executed for the given time.\x3c/p>","*5s","*Slept 5 seconds","*Maximize Browser Window","*<p>Maximizes current browser window.\x3c/p>","*Set Selenium Speed","*<p>Sets the delay that is waited after each Selenium command.\x3c/p>","*3s","*this test case is to test the timesheets","*keywords","*Input Text","*<p>Types the given <code>text\x3c/code> into the text field identified by <code>locator\x3c/code>.\x3c/p>","*${email}, ${Employee_Logins}[Email]","*Typing text 'vedvika05@gmail.com' into text field '//*[@id=\"email\"]'.","*Input Password","*<p>Types the given password into the text field identified by <code>locator\x3c/code>.\x3c/p>","*${pwd}, ${Employee_Logins}[Password]","*Typing password into text field '//*[@id=\"password\"]'.","*Temporally setting log level to: NONE","*Log level changed from NONE to INFO.","*Click Element","*<p>Click the element identified by <code>locator\x3c/code>.\x3c/p>","*${submit}","*Clicking element '//*[@id=\"root\"]/div/div/main/div[2]/div/form/button'.","*${flairTec}","*Clicking element '//*[@id=\"root\"]/div/div/div/div/main/div/div/div[3]/div/button'.","*${timesheets2}","*Clicking element '//*[@id=\"root\"]/div/div/div/div/a[2]/li'.","*${timesheet_newtimesheet}","*Clicking element '//*[@id=\"console-timesheets-new-button\"]'.","*${timesheet_slctPMbutt}","eNpzzslMzs7MS1dIzUnNTc0rUVDX19eKdshMsVUqys8vUYrVT8ksA+PcxMw8ECPaCCGGhKMNY5EoDJxUWlKSnwfUq64HAPx8J94=","*${timesheet_slctPlacement}","*Clicking element '//*[@id=\"SubmitTimesheet-SelectPlacement-placements-state-placementID-option-3\"]'.","*${timesheet_UploadDocButton}, C:\\client.txt","*Typing text 'C:client.txt' into text field '//*[@id=\"root\"]/div/div/main/div[2]/div/div/div/div/div[1]/div[2]/div/div/div/label/span'.","*Capture Page Screenshot","*<p>Takes a screenshot of the current page and embeds it into a log file.\x3c/p>","*\x3c/td>\x3c/tr><tr><td colspan=\"3\"><a href=\"selenium-screenshot-311.png\"><img src=\"selenium-screenshot-311.png\" width=\"800px\">\x3c/a>","*commonteardown","*Close Browser","*<p>Closes the current browser.\x3c/p>"]);
 </script>
 <script type="text/javascript">
-window.output["stats"] = [[{"elapsed":"00:02:44","fail":0,"label":"All Tests","pass":1,"skip":0}],[],[{"elapsed":"00:02:44","fail":0,"id":"s1","label":"TC SI01 GC","name":"TC SI01 GC","pass":1,"skip":0}]];
+window.output["stats"] = [[{"elapsed":"00:01:53","fail":1,"label":"All Tests","pass":0,"skip":0}],[],[{"elapsed":"00:01:54","fail":1,"id":"s1","label":"TC TS01 GC","name":"TC TS01 GC","pass":0,"skip":0}]];
 </script>
 <script type="text/javascript">
 window.output["errors"] = [];
 </script>
 <script type="text/javascript">
-window.output["baseMillis"] = 1627643887008;
+window.output["baseMillis"] = 1650625461386;
 </script>
 <script type="text/javascript">
-window.output["generated"] = 164329;
+window.output["generated"] = 113802;
 </script>
 <script type="text/javascript">
 window.output["expand_keywords"] = null;

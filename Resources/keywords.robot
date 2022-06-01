@@ -38,23 +38,6 @@ This test case is to test the Personal Information of employee
         Sleep    2s
         input text    ${Profile_PILastname}    ${PersonalInformation}[Lastname]
         Sleep    2s
-        press keys  ${Profile_PIEmail}    CTRL+BACKSPACE
-        Sleep    2s
-        press keys  ${Profile_PIEmail}    CTRL+BACKSPACE
-        Sleep    2s
-        press keys  ${Profile_PIEmail}    CTRL+BACKSPACE
-        Sleep    2s
-        press keys  ${Profile_PIEmail}    CTRL+BACKSPACE
-        Sleep    2s
-        press keys  ${Profile_PIEmail}    CTRL+BACKSPACE
-        Sleep    2s
-        press keys  ${Profile_PIEmail}    CTRL+BACKSPACE
-        Sleep    2s
-        press keys  ${Profile_PIEmail}    CTRL+BACKSPACE
-        Sleep    2s
-        press keys  ${Profile_PIEmail}    CTRL+BACKSPACE
-        Sleep    2s
-        input text  ${Profile_PIEmail}  ${PersonalInformation}[Email]
         Sleep    2s
         press keys  ${Profile_PIPhone}    CTRL+BACKSPACE
         Sleep    2s
@@ -535,7 +518,7 @@ This test is to create a client
 #        click element    ${console}
 #        sleep    5s
 #        click element    ${clientlist}
-        go to    https://flair-technologies.web.app/console/clientslist
+        go to    https://eficensit-test-8b2e9.web.app/console/clientslist
         sleep    5s
         click element    ${newclient}
         sleep    5s
@@ -693,6 +676,10 @@ This test is to create a client
         Sleep    2s
         input text    ${Fax}    ${RDBusinessinformation}[Fax]
         Sleep    2s
+#        click element   ${Clientlog}
+#        Sleep   2s
+#        locator    "C:\Users\chand\Downloads\WhatsApp Image 2021-11-18 at 2.41.53 PM.jpeg"
+#        Sleep   2s
         input text    ${Addressline1}    ${RDBusinessinformation}[Addressline1]
         Sleep    2s
         input text    ${Addresslin2}    ${RDBusinessinformation}[Addressline2]
@@ -831,14 +818,14 @@ This test is to create a client
 #        Sleep    2s
 #        click element    ${Contact3}
 #        Sleep    2s
-        click element    ${CCountry}
-        Sleep    2s
-        click element    ${CIndia}
-        Sleep    5s
-        click element    ${CState}
-        Sleep    5s
-        click element    ${CAP}
-        Sleep    2s
+#        click element    ${CCountry}
+#        Sleep    2s
+#        click element    ${CIndia}
+#        Sleep    5s
+#        click element    ${CState}
+#        Sleep    5s
+#        click element    ${CAP}
+#        Sleep    2s
        # click element    ${CONTACTS}
         Sleep    2s
         input text    ${Representativename}    ${RDContacts}[Representativename]
@@ -2138,8 +2125,8 @@ this test is to test the new sub task creation in task management for admin logi
        # click element  ${TM_nt_click_create}
        #........................timesheets.......................#
 this test case is to test the timesheets
-        Input Text  ${email}    ${Employee_Logins1}[Email]
-        Input Password  ${pwd}  ${Employee_Logins1}[Password]
+        Input Text  ${email}    ${Employee_Logins}[Email]
+        Input Password  ${pwd}  ${Employee_Logins}[Password]
         Click Element   ${submit}
         sleep   5s
         Click Element    ${flairTec}
@@ -2147,7 +2134,9 @@ this test case is to test the timesheets
         click element   ${timesheets2}
         click element   ${timesheet_newtimesheet}
         click element   ${timesheet_slctPMbutt}
-        click element   ${timesheet_placement}
+        click element   ${timesheet_slctPlacement}
+        Input Text   ${timesheet_UploadDocButton}   C:\client.txt
+
 this test case is to test resubmit rejected timesheets
         Input Text  ${email}    ${Employee_Logins1}[Email]
         Input Password  ${pwd}  ${Employee_Logins1}[Password]
